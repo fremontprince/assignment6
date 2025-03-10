@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: transparent; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+nav {
+  flex: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: transparent; 
+  color: black; 
+  transition: text-decoration 0.3s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.about-me-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.about-me-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-me-text h3 {
+  font-size: 2em;
+}
+
+.about-me-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.project-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.project-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project1 {
+  background-color:  #3288de;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project2 {
+  background-color: rgb(93, 250, 31);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project1 img, .project2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
